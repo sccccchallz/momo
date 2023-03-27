@@ -91,6 +91,7 @@ body {
     margin: 0;
     font-size: 20px;
     letter-spacing: -0.6px;
+    color: rgb(0,0,0);
   }
   
   .running {
