@@ -26,11 +26,11 @@ audio {
   box-shadow: rgba(0, 0, 0, .2) 0 3px 3px -2px, rgba(0, 0, 0, .14) 0 3px 4px 0, rgba(0, 0, 0, .12) 0 1px 8px 0;
 }
 
-img, h3 {
+/* img, h3 {
   width: 36px;
   height: 36px;
   margin-bottom: 6px;
-}
+} */
 
 main {
   position: absolute;
@@ -68,9 +68,9 @@ section:hover {
 }
 
 h2 {
-  margin-top: 21vh;
-  margin-bottom: 1vh;
-  -webkit-text-stroke: 0.8px rgba(255, 255, 255, 0.8);
+  margin-top: 20vh;
+  margin-bottom: 0.2vh;
+  -webkit-text-stroke: 0.9px rgba(255, 255, 255, 0.8);
   color: black;
   font-size: 4vw;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -118,10 +118,16 @@ a {
 
 
 #avatar {
-  width: 110%;
+  width: 100%;
   max-width: 9vw;
   height: auto;
-  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#image {
+  width: 100vw;
+  text-align: center;
 }
 
 #body {
@@ -131,17 +137,17 @@ a {
 }
 
 #begin {
-  font-size: 2.2vw;
+  font-size: 2.1vw;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #main {
-  font-size: 2vw;
+  font-size: 1.9vw;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #last {
-  font-size: 2.2vw;
+  font-size: 2.1vw;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
