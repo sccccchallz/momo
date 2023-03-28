@@ -69,9 +69,10 @@ body {
   
   h2 {
     margin-top: 21vh;
+    margin-bottom: 1vh;
     -webkit-text-stroke: 0.8px rgba(255, 255, 255, 0.8);
     color: black;
-    font-size: 50px;
+    font-size: 4vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
@@ -117,25 +118,35 @@ body {
 
 
   #avatar {
-    width: 100%;
-    max-width: 200px;
+    width: 110%;
+    max-width: 9vw;
     height: auto;
-    margin-top: 1vh;
-  }
-
-  #main {
-    font-size: 175%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
   }
 
   #image {
-    position: center;
+
+    
   }
 
   #body {
-    position: left;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  #begin {
+    font-size: 2.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #main {
+    font-size: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #last {
+    font-size: 2.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
